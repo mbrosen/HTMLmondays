@@ -1,0 +1,227 @@
+/* Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr; 
+    grid-gap: 15px; 
+}
+
+/* Styling for the header */
+header {
+    background-color: #2C8E8E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+     
+}
+
+header h1 {
+    position: relative;
+    display: block;
+    background-color: #EC9B9C; /* Add background color to the title */
+    padding: 5px 10px; /* Add padding to the title */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    border: 2px solid #000;
+    max-width: 30%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 35px;
+
+}
+
+/* Header image styling*/
+header img {
+    width: 10vw; 
+    height: auto; 
+    margin: 0 10px; 
+    position: absolute;
+    max-width: 100px; 
+    min-width: 50px; 
+    max-height: 100px; 
+    min-height: 50px;
+}
+
+/* Position the left image */
+.left-img {
+    left: 20px; /* Anchor to left side*/
+    top: 30%;
+    transform: translateY(-50%);
+}
+/* Position the right image */
+.right-img {
+    right: 20px; /* Anchor to the right side*/
+    top: 30%;;
+    transform: translateY(-50%);
+}
+
+
+/* navigation styling */
+nav {
+    display: inline-block; 
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+}
+
+nav ul li a:hover {
+    background-color: #56568f; 
+}
+
+
+
+
+
+
+
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #8CD4D4, #2C8E8E); /* Gradient background */
+
+    color: #fff;
+    padding: 10px;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0;
+    font-size: 15px;
+    line-height: normal;
+  letter-spacing: 0;
+}
+
+/* Footer image styling*/
+footer img {
+    width: 8vw; 
+    height: auto; 
+    margin: 0 10px; 
+    position: absolute;
+    max-width: 100px;
+    min-width: 50px; 
+    max-height: 70px; 
+    min-height: 50px; 
+}
+
+/* Position the left image footer */
+.left-tread-img {
+    left: 20px; 
+    top: 60%;
+    transform: translateY(-50%);
+}
+/* Position the right image */
+.right-tread-img {
+    right: 40px; /* Position the right image footer */
+    top: 60%;;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+/* Styling for the aside */
+aside {
+    background-color: #DAC4C4;
+    padding: 20px;
+    border: 2px solid #000; 
+    color:#18626e
+
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px;
+}
+
+
+/* Styling for the testimonials */
+.testimonials {
+    background-image: linear-gradient(to right, #DAC4C4, #EC9B9C); /* Gradient background */
+
+    padding: 10px;
+    margin-top: 30px; /* space between slideshow and testimonials */
+    border-radius: 5px;
+}
+
+
+
+  /* Descriptive list */
+        h2 {
+            color:#27275e;
+        }
+        dl {
+            color:#27275e;
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            list-style: none; 
+            padding: 0;
+        }
+
+        dl dt {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        dl dd {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        /* Individual testimonials */
+        .testimonial {
+            background-color: rgba(247, 228, 247, 0.3);
+            padding: 5px;
+            border-radius: 5px;
+            width: 45%; 
+            margin-bottom: 10px;
+        }
+
+
+.slideshow img {
+    width: 75%;
+    height: auto;
+}
+
+
+
+/* Hide all slides by default */
+.slideshow-slide {
+    display: none;
+}
+
+/* Fade animation for the slideshow */
+.fade {
+    animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
+body {
+    background-color: #b0bfc2; /* Add a background color */
+}

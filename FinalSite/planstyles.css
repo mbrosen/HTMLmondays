@@ -1,0 +1,200 @@
+/* Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; 
+    grid-gap: 20px; 
+}
+
+/* Styling for the header */
+header {
+    background-color: #2C8E8E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+     
+}
+
+header h1 {
+    position: relative;
+    display: block;
+    background-color: #EC9B9C;
+    padding: 5px 10px; 
+    border-radius: 5px;
+    border: 2px solid #000;
+    max-width: 30%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 35px;
+
+}
+
+/* Header image styling*/
+header img {
+    width: 10vw;
+    height: auto;
+    margin: 0 10px;
+    position: absolute;
+    max-width: 100px;
+    min-width: 50px; 
+    max-height: 100px;
+    min-height: 50px; 
+}
+
+/* Position the left image */
+.left-img {
+    left: 20px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+/* Position the right image */
+.right-img {
+    right: 20px; 
+    top: 30%;;
+    transform: translateY(-50%);
+}
+
+
+    /* Styling for the navigation */
+nav {
+    display: inline-block; 
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    display: block; 
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+}
+
+nav ul li a:hover {
+    background-color: #56568f; 
+}
+
+
+
+
+
+
+
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #8CD4D4, #2C8E8E); /* Gradient background */
+
+    color: #fff;
+    padding: 10px;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0;
+    font-size: 15px;
+    line-height: normal;
+  letter-spacing: 0;
+}
+
+/* Footer image styling*/
+footer img {
+    width: 8vw; 
+    height: auto;
+    margin: 0 10px;
+    position: absolute;
+    max-width: 100px;
+    min-width: 50px; 
+    max-height: 70px;
+    min-height: 50px;
+}
+
+/* Position the left image */
+.left-tread-img {
+    left: 20px; 
+    top: 60%;
+    transform: translateY(-50%);
+}
+/* Position the right image */
+.right-tread-img {
+    right: 40px;
+    top: 60%;;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+/* Styling for the aside */
+nav.border {
+    overflow: hidden;
+    background-image: url('green_light.jpg'); 
+    background-repeat: repeat 4; /* Tiling */
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px;
+}
+body {
+     background-image: url("green_light.jpg");
+     background-repeat: repeat 3; 
+     background-position: center;
+}
+
+.membership-b {
+            max-width: 550px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            background-image: linear-gradient(to bottom, #ccc9c0, #cc902f); /* Gradient background */
+
+        }
+.membership-s {
+            max-width: 550px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            background-image: linear-gradient(to bottom, #ccc9c0, #bfbfbd); /* Gradient background */
+
+        }
+.membership-g {
+            max-width: 550px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            background-image: linear-gradient(to bottom, #ccc9c0, #f5dd53); /* Gradient background */
+
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+
+
+
